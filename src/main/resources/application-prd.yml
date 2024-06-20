@@ -1,0 +1,25 @@
+spring:
+  application:
+    name: todo-list
+
+  datasource:
+    url: jdbc:postgresql://database-corcino.chsa44mqm5ol.us-east-1.rds.amazonaws.com:5432/todolist_db
+    driver-class-name: org.postgresql.Driver
+    username: postgres
+    password: laion2024
+
+  jpa:
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        format_sql: true
+
+server:
+  port: 8083
+
+cors:
+  allowed:
+    origins: http://localhost:4200
