@@ -22,4 +22,4 @@ server:
 
 cors:
   allowed:
-    origins: http://localhost:4200
+    origins: todolist-corcino.s3-website-us-east-1.amazonaws.com
