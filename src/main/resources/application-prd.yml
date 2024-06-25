@@ -22,4 +22,4 @@ server:
 
 cors:
   allowed:
-    origins: todolist-corcino.s3-website-us-east-1.amazonaws.com
+    origins: http://todolist-corcino.s3-website-us-east-1.amazonaws.com
